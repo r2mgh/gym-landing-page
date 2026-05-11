@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PowerFit – Build Your Dream Body</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-power">POWER</span><span class="logo-fit">FIT</span>
+      </a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home"        class="nav-link">Home</a></li>
+        <li><a href="#about"       class="nav-link">About</a></li>
+        <li><a href="#programs"    class="nav-link">Programs</a></li>
+        <li><a href="#pricing"     class="nav-link">Pricing</a></li>
+        <li><a href="#faq"         class="nav-link">FAQ</a></li>
+        <li><a href="#contact"     class="nav-link">Contact</a></li>
+        <li><a href="#pricing"     class="btn btn-nav">Join Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-container">
+
+      <div class="hero-content">
+        <div class="hero-badge">— WELCOME TO POWERFIT —</div>
+        <h1 class="hero-title">
+          BUILD YOUR<br /><span class="hero-title-accent">DREAM BODY</span>
+        </h1>
+        <p class="hero-desc">
+          Unleash your full potential with elite training programs,
+          expert coaches, and a community that pushes you further every single day.
+        </p>
+        <div class="hero-actions">
+          <a href="#pricing"  class="btn btn-primary">Join Now</a>
+          <a href="#programs" class="btn btn-outline">View Programs</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-num" data-target="500">0</span><span>+</span>
+            <span class="hero-stat-label">Members</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num" data-target="20">0</span><span>+</span>
+            <span class="hero-stat-label">Trainers</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num" data-target="10">0</span><span></span>
+            <span class="hero-stat-label">Years Exp.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-frame">
+          <div class="hero-image-placeholder">
+            <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+              <!-- Barbell bar -->
+              <rect x="40" y="230" width="320" height="18" rx="9" fill="#2a2a2a"/>
+              <!-- Left weight big -->
+              <rect x="30" y="195" width="30" height="88" rx="6" fill="#1a1a1a" stroke="#00a3ff" stroke-width="2"/>
+              <!-- Left weight small -->
+              <rect x="62" y="210" width="18" height="58" rx="4" fill="#1a1a1a" stroke="#00a3ff" stroke-width="1.5"/>
+              <!-- Right weight big -->
+              <rect x="340" y="195" width="30" height="88" rx="6" fill="#1a1a1a" stroke="#00a3ff" stroke-width="2"/>
+              <!-- Right weight small -->
+              <rect x="320" y="210" width="18" height="58" rx="4" fill="#1a1a1a" stroke="#00a3ff" stroke-width="1.5"/>
+              <!-- Head -->
+              <circle cx="200" cy="100" r="32" fill="#2a2a2a"/>
+              <!-- Body -->
+              <path d="M170 132 Q200 145 230 132 L240 200 Q220 210 200 212 Q180 210 160 200 Z" fill="#2a2a2a"/>
+              <!-- Arms -->
+              <path d="M170 145 Q130 180 100 225" stroke="#2a2a2a" stroke-width="22" stroke-linecap="round" fill="none"/>
+              <path d="M230 145 Q270 180 300 225" stroke="#2a2a2a" stroke-width="22" stroke-linecap="round" fill="none"/>
+              <!-- Legs -->
+              <path d="M190 210 Q185 280 175 340" stroke="#2a2a2a" stroke-width="20" stroke-linecap="round" fill="none"/>
+              <path d="M210 210 Q215 280 225 340" stroke="#2a2a2a" stroke-width="20" stroke-linecap="round" fill="none"/>
+              <!-- Shoes -->
+              <ellipse cx="165" cy="345" rx="22" ry="12" fill="#1a1a1a" stroke="#00a3ff" stroke-width="1.5"/>
+              <ellipse cx="233" cy="345" rx="22" ry="12" fill="#1a1a1a" stroke="#00a3ff" stroke-width="1.5"/>
+              <!-- Glow rings -->
+              <circle cx="200" cy="239" r="80"  fill="none" stroke="#00a3ff" stroke-width="1"   opacity="0.2"/>
+              <circle cx="200" cy="239" r="120" fill="none" stroke="#00a3ff" stroke-width="0.5" opacity="0.1"/>
+            </svg>
+          </div>
+          <div class="hero-image-deco deco-1"></div>
+          <div class="hero-image-deco deco-2"></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-visual reveal">
+          <div class="about-image-box">
+            <div class="about-img-placeholder">
+              <svg viewBox="0 0 380 380" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <radialGradient id="aboutGlow" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%"   stop-color="#e8000b" stop-opacity="0.15"/>
+                    <stop offset="100%" stop-color="#e8000b" stop-opacity="0"/>
+                  </radialGradient>
+                </defs>
+                <circle cx="190" cy="190" r="170" fill="url(#aboutGlow)"/>
+                <!-- Dumbbell bar -->
+                <rect x="80"  y="175" width="220" height="28" rx="14" fill="#1e1e1e"/>
+                <!-- Left weights -->
+                <rect x="58"  y="148" width="35"  height="82" rx="8" fill="#161616" stroke="#00a3ff" stroke-width="2"/>
+                <rect x="93"  y="158" width="22"  height="62" rx="5" fill="#161616" stroke="#cc0008" stroke-width="1.5"/>
+                <!-- Right weights -->
+                <rect x="287" y="148" width="35"  height="82" rx="8" fill="#161616" stroke="#00a3ff" stroke-width="2"/>
+                <rect x="265" y="158" width="22"  height="62" rx="5" fill="#161616" stroke="#cc0008" stroke-width="1.5"/>
+                <!-- Grip texture -->
+                <line x1="170" y1="178" x2="170" y2="200" stroke="#333" stroke-width="3"/>
+                <line x1="185" y1="178" x2="185" y2="200" stroke="#333" stroke-width="3"/>
+                <line x1="200" y1="178" x2="200" y2="200" stroke="#333" stroke-width="3"/>
+                <line x1="215" y1="178" x2="215" y2="200" stroke="#333" stroke-width="3"/>
+                <!-- Energy dots -->
+                <circle cx="190" cy="120" r="4" fill="#00a3ff" opacity="0.8"/>
+                <circle cx="140" cy="145" r="3" fill="#00a3ff" opacity="0.5"/>
+                <circle cx="240" cy="145" r="3" fill="#00a3ff" opacity="0.5"/>
+              </svg>
+            </div>
+            <div class="about-badge-float">
+              <span class="about-badge-num">10+</span>
+              <span class="about-badge-text">Years of<br/>Excellence</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <div class="section-label">— ABOUT US —</div>
+          <h2 class="section-title">
+            More Than A Gym.<br /><span class="text-accent">A Way Of Life.</span>
+          </h2>
+          <p class="about-text">
+            PowerFit is where champions are forged. Since 2014, we've been dedicated
+            to transforming lives through science-backed training, elite coaching,
+            and a brotherhood of warriors who never settle for less.
+          </p>
+          <p class="about-text">
+            Our state-of-the-art facility spans 10,000 sq ft of pure dedication —
+            equipped with premium machines, free weights, and specialized zones
+            for every fitness goal you set.
+          </p>
+          <div class="about-stats">
+            <div class="about-stat reveal">
+              <span class="about-stat-num counter" data-target="500">0</span>
+              <span class="about-stat-plus">+</span>
+              <span class="about-stat-label">Members</span>
+            </div>
+            <div class="about-stat reveal">
+              <span class="about-stat-num counter" data-target="20">0</span>
+              <span class="about-stat-plus">+</span>
+              <span class="about-stat-label">Trainers</span>
+            </div>
+            <div class="about-stat reveal">
+              <span class="about-stat-num counter" data-target="10">0</span>
+              <span class="about-stat-plus"></span>
+              <span class="about-stat-label">Years Exp.</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROGRAMS ===== -->
+  <section class="programs section" id="programs">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">— WHAT WE OFFER —</div>
+        <h2 class="section-title">Our <span class="text-accent">Programs</span></h2>
+        <p class="section-desc">Choose the program that aligns with your goals and start your transformation today.</p>
+      </div>
+
+      <div class="programs-grid">
+        <!-- Card 1: Strength Training -->
+        <div class="program-card reveal">
+          <div class="program-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4"  y="28" width="56" height="8" rx="4" fill="currentColor" opacity="0.3"/>
+              <rect x="0"  y="22" width="14" height="20" rx="4" fill="currentColor"/>
+              <rect x="50" y="22" width="14" height="20" rx="4" fill="currentColor"/>
+              <rect x="14" y="26" width="10" height="12" rx="3" fill="currentColor" opacity="0.7"/>
+              <rect x="40" y="26" width="10" height="12" rx="3" fill="currentColor" opacity="0.7"/>
+            </svg>
+          </div>
+          <div class="program-number">01</div>
+          <h3 class="program-title">Strength Training</h3>
+          <p class="program-desc">
+            Build raw power and muscle mass with our structured strength programs.
+            Deadlifts, squats, bench press — fundamentals done right.
+          </p>
+          <ul class="program-features">
+            <li>Powerlifting &amp; Olympic Lifting</li>
+            <li>Progressive Overload System</li>
+            <li>1-on-1 Form Analysis</li>
+          </ul>
+          <a href="#pricing" class="program-cta">Start Now →</a>
+        </div>
+
+        <!-- Card 2: Cardio Classes -->
+        <div class="program-card reveal">
+          <div class="program-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="20" r="8" fill="currentColor"/>
+              <path d="M20 36 Q32 28 44 36 L46 56 H18 Z" fill="currentColor" opacity="0.8"/>
+              <path d="M10 40 Q20 34 20 36 L18 56 H8  Z" fill="currentColor" opacity="0.4"/>
+              <path d="M54 40 Q44 34 44 36 L46 56 H56 Z" fill="currentColor" opacity="0.4"/>
+              <path d="M32 44 L28 56 M32 44 L36 56" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="program-number">02</div>
+          <h3 class="program-title">Cardio Classes</h3>
+          <p class="program-desc">
+            High-energy group classes designed to torch calories, improve endurance,
+            and keep you moving. HIIT, cycling, kickboxing and more.
+          </p>
+          <ul class="program-features">
+            <li>HIIT &amp; Interval Training</li>
+            <li>Group Cycling Sessions</li>
+            <li>Kickboxing &amp; Combat Cardio</li>
+          </ul>
+          <a href="#pricing" class="program-cta">Start Now →</a>
+        </div>
+
+        <!-- Card 3: Personal Coaching -->
+        <div class="program-card reveal">
+          <div class="program-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="22" cy="16" r="7" fill="currentColor"/>
+              <circle cx="44" cy="16" r="7" fill="currentColor" opacity="0.5"/>
+              <path d="M10 30 Q22 22 34 30 L36 50 H12 Z" fill="currentColor" opacity="0.8"/>
+              <path d="M34 26 Q44 20 54 26 L56 46 H36 Z" fill="currentColor" opacity="0.5"/>
+              <rect x="18" y="50" width="6" height="10" rx="2" fill="currentColor" opacity="0.6"/>
+              <rect x="28" y="50" width="6" height="10" rx="2" fill="currentColor" opacity="0.6"/>
+            </svg>
+          </div>
+          <div class="program-number">03</div>
+          <h3 class="program-title">Personal Coaching</h3>
+          <p class="program-desc">
+            Work 1-on-1 with elite certified trainers who design custom programs,
+            track your progress, and hold you accountable to your goals.
+          </p>
+          <ul class="program-features">
+            <li>Custom Workout Plans</li>
+            <li>Nutrition Guidance</li>
+            <li>Weekly Progress Check-ins</li>
+          </ul>
+          <a href="#pricing" class="program-cta">Start Now →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="pricing section" id="pricing">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">— MEMBERSHIP PLANS —</div>
+        <h2 class="section-title">Choose Your <span class="text-accent">Plan</span></h2>
+        <p class="section-desc">Transparent pricing. No hidden fees. Cancel anytime.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Basic -->
+        <div class="pricing-card reveal">
+          <div class="pricing-header">
+            <span class="pricing-badge">Basic</span>
+            <div class="pricing-price">
+              <span class="price-currency">$</span>
+              <span class="price-amount">10</span>
+              <span class="price-period">/mo</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li class="feature-item feature-yes">Gym Access (6AM–10PM)</li>
+            <li class="feature-item feature-yes">Locker Room Access</li>
+            <li class="feature-item feature-yes">Free Weights Area</li>
+            <li class="feature-item feature-no">Group Classes</li>
+            <li class="feature-item feature-no">Personal Trainer</li>
+            <li class="feature-item feature-no">Nutrition Plan</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-full">Get Started</a>
+        </div>
+
+        <!-- Standard (Featured) -->
+        <div class="pricing-card pricing-featured reveal">
+          <div class="pricing-popular-badge">MOST POPULAR</div>
+          <div class="pricing-header">
+            <span class="pricing-badge">Standard</span>
+            <div class="pricing-price">
+              <span class="price-currency">$</span>
+              <span class="price-amount">20</span>
+              <span class="price-period">/mo</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li class="feature-item feature-yes">Gym Access (24/7)</li>
+            <li class="feature-item feature-yes">Locker Room Access</li>
+            <li class="feature-item feature-yes">Free Weights Area</li>
+            <li class="feature-item feature-yes">Unlimited Group Classes</li>
+            <li class="feature-item feature-no">Personal Trainer</li>
+            <li class="feature-item feature-no">Nutrition Plan</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-full">Join Now</a>
+        </div>
+
+        <!-- Premium -->
+        <div class="pricing-card reveal">
+          <div class="pricing-header">
+            <span class="pricing-badge">Premium</span>
+            <div class="pricing-price">
+              <span class="price-currency">$</span>
+              <span class="price-amount">35</span>
+              <span class="price-period">/mo</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li class="feature-item feature-yes">Gym Access (24/7)</li>
+            <li class="feature-item feature-yes">Locker Room + Sauna</li>
+            <li class="feature-item feature-yes">Free Weights Area</li>
+            <li class="feature-item feature-yes">Unlimited Group Classes</li>
+            <li class="feature-item feature-yes">Monthly PT Sessions (4x)</li>
+            <li class="feature-item feature-yes">Custom Nutrition Plan</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-full">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">— REAL RESULTS —</div>
+        <h2 class="section-title">What Our <span class="text-accent">Members Say</span></h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-rating">★★★★★</div>
+          <p class="testimonial-text">
+            "PowerFit completely changed my life. In just 6 months I went from barely being able
+            to bench 60kg to hitting 120kg. The trainers here are absolutely top tier."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AK</div>
+            <div class="testimonial-info">
+              <span class="testimonial-name">Ahmed Khalil</span>
+              <span class="testimonial-role">Member since 2022</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-rating">★★★★★</div>
+          <p class="testimonial-text">
+            "The cardio classes are insane — the best part of my week. Lost 18kg in 4 months
+            and feel stronger than I ever have. Worth every single penny."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">SR</div>
+            <div class="testimonial-info">
+              <span class="testimonial-name">Sara Rahman</span>
+              <span class="testimonial-role">Member since 2023</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-rating">★★★★★</div>
+          <p class="testimonial-text">
+            "Got the Premium plan and the personal coaching is a game-changer. My trainer
+            tracks everything and the custom meal plan helped me hit my goals twice as fast."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">MO</div>
+            <div class="testimonial-info">
+              <span class="testimonial-name">Omar Magdy</span>
+              <span class="testimonial-role">Member since 2021</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">— GOT QUESTIONS? —</div>
+        <h2 class="section-title">Frequently Asked <span class="text-accent">Questions</span></h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do I need prior experience to join PowerFit?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Absolutely not! PowerFit welcomes everyone from complete beginners to seasoned
+              athletes. Our trainers will guide you through everything from day one, ensuring
+              you train safely and effectively regardless of your starting point.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I cancel my membership at any time?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, all our plans are month-to-month with no long-term contracts.
+              You can cancel anytime before your next billing cycle with no hidden
+              cancellation fees. We believe in earning your loyalty, not trapping you.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>What are the gym's operating hours?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Basic members get access from 6AM to 10PM, 7 days a week.
+              Standard and Premium members enjoy 24/7 access including holidays.
+              Group classes run Monday through Saturday with multiple daily time slots.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is there a free trial available?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes! We offer a 3-day free trial pass for all new visitors.
+              Simply fill out the contact form below or visit us in person with a valid ID.
+              No credit card required — we want you to fall in love with the gym before you commit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <div class="section-label">— GET IN TOUCH —</div>
+          <h2 class="section-title">Start Your<br /><span class="text-accent">Journey Today</span></h2>
+          <p class="contact-desc">
+            Ready to transform? Fill out the form and one of our team
+            members will reach out within 24 hours.
+          </p>
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">&#128205;</div>
+              <div>
+                <span class="contact-detail-label">Location</span>
+                <span class="contact-detail-value">123 Fitness Street, Cairo, Egypt</span>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">&#128222;</div>
+              <div>
+                <span class="contact-detail-label">Phone</span>
+                <span class="contact-detail-value">+20 100 123 4567</span>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">&#9993;</div>
+              <div>
+                <span class="contact-detail-label">Email</span>
+                <span class="contact-detail-value">hello@powerfit.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" id="name" name="name" class="form-input"
+                       placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" name="email" class="form-input"
+                       placeholder="john@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" id="phone" name="phone" class="form-input"
+                     placeholder="+20 100 000 0000" />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="form-input form-textarea"
+                        rows="4" placeholder="Tell us about your fitness goals..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <div class="form-success" id="form-success">
+              <span class="success-icon">&#10003;</span>
+              Message sent! We'll get back to you within 24 hours.
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo footer-logo">
+            <span class="logo-power">POWER</span><span class="logo-fit">FIT</span>
+          </a>
+          <p class="footer-tagline">No excuses. Just results.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Instagram">IG</a>
+            <a href="#" class="social-link" aria-label="Facebook">FB</a>
+            <a href="#" class="social-link" aria-label="YouTube">YT</a>
+            <a href="#" class="social-link" aria-label="Twitter">TW</a>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home"     class="footer-link">Home</a></li>
+            <li><a href="#about"    class="footer-link">About Us</a></li>
+            <li><a href="#programs" class="footer-link">Programs</a></li>
+            <li><a href="#pricing"  class="footer-link">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Programs</h4>
+          <ul class="footer-links">
+            <li><a href="#programs" class="footer-link">Strength Training</a></li>
+            <li><a href="#programs" class="footer-link">Cardio Classes</a></li>
+            <li><a href="#programs" class="footer-link">Personal Coaching</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Support</h4>
+          <ul class="footer-links">
+            <li><a href="#faq"     class="footer-link">FAQ</a></li>
+            <li><a href="#contact" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2024 PowerFit. All rights reserved.</span>
+        <span>Built with passion for fitness.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
